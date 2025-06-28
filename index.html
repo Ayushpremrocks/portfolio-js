@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="#header">Home</a> </li>
                     <li><a href="#about">About me</a> </li>
-                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#services">Skills</a> </li>
                     <li><a href="#portfolio">Portfolio</a> </li>
                     <li><a href="#contact">Contact</a> </li>
                 </ul>
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="about-col-1">
                     <!-- about image -->
-                    <img src="/cool boi.jpg" alt="image">
+                    <img src="/assets/images/profile_pic.jpg" alt="image">
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle" >About Me</h1>
@@ -44,65 +44,109 @@
                     problem solving skills. I build projects in Web Development and Machine Learning, combining practical application
                     with continuous learning.</p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('xyz')" >xyz</p>
-                    </div>
-                    <!-- skills content -->
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Programming Languages</span><br>C, C++, Python, Java, JavaScript, HTML, CSS</li>
-                            <li><span>Libraries & Frameworks</span><br>React, Scikit-learn, NumPy, Pandas, Tailwind, Flask</li>
-                            <li><span>Databases</span><br>SQL, MongoDB</li>
-                            <li><span>Tools and others</span><br>AWS, Docker, Jupyter, Git/Github</li>
-                        </ul>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
                     </div>
                     <!-- education -->
-                    <div class="tab-contents" id="education">
+                    <div class="tab-contents active-tab" id="education">
                         <ul>
                             <li><span>Bachelor of Technology, Computer Science and Engineering</span><br>Chandigarh Univerisity, Punjab, India</li>
                             <li><span>Intermediate, Science and Mathematics</span><br>Dr. Ulhas Patil english medium school</li>
                             <li><span>Matriculation</span><br>Kendriya Vidyalaya</li>
                         </ul>
                     </div>
-                    <!-- xyz  -->
-                    <div class="tab-contents" id="xyz">
+                    <!-- achievements -->
+                    <div class="tab-contents" id="achievements">
                         <ul>
-                            <li><span>developer</span><br>cp coder</li>
-                            <li><span>developer</span><br>cp coder</li>
-                            <li><span>developer</span><br>cp coder</li>
+                            <li>
+                            <span>Certificate of Merit</span><br>
+                            8-Week Machine Learning Course, AI Club, IIT Guwahati
+                            </li>
+                            <li>
+                            <span>Certificate of Merit</span><br>
+                            6-Week Data Science & Machine Learning, CAC, IIT Guwahati
+                            </li>
+                            <li>
+                            <span>1st Runner-up</span><br>
+                            Code Quest 2.0, Chandigarh University
+                            </li>
+                            <li>
+                            <span>Certificate of Participation</span><br>
+                            Bharatiya Antariksh Hackathon 2024, ISRO
+                            </li>
+                            <li>
+                            <span>Certificate of Participation</span><br>
+                            Flipkart Grid: Level 1, Flipkart
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>GirlScript Summer of Code (GSSoC)</span><br>
+                                Contributor &nbsp; | &nbsp; Remote &nbsp; | &nbsp; October 2024 – October 2024
+                            </li>
+                            <li>
+                                <span>Google Developers Group (GDG)</span><br>
+                                Member &nbsp; | &nbsp; Chandigarh, India &nbsp; | &nbsp; August 2024 – Present
+                            </li>
+                            <li>
+                                <span>Google Developer Student Clubs (GDSC)</span><br>
+                                Member &nbsp; | &nbsp; Chandigarh University, India &nbsp; | &nbsp; October 2023 – Present
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-<!-- services -->
+<!-- skills -->
     <div id="services">
         <div class="container">
-            <h1 class="subtitle">My Services</h1>
+            <h1 class="subtitle">Skills</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
-                    <a href="#">Learn More</a>
+                    <h2>Web Development</h2>
+                    <ul>
+                        <li>Programming Languages: Python, Java, JavaScript, HTML, CSS</li>
+                        <li>Frontend: React, Tailwind</li>
+                        <li>Backend: Flask</li>
+                        <li>Databases: SQL, MongoDB</li>
+                        <li>Cloud services: AWS, Vercel, Render</li>
+                        <li>Tools and others: Docker, Jupyter, Git/Github</li>
+                    </ul>
                 </div>
 
                 <div>
                     <i class="fa-solid fa-brain"></i>
-                    <h2>Machine Learning</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
-                    <a href="#">Learn More</a>
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>Solved more than 300+ problems in DSA and Competitive Programming</p>
+                    <ul>
+                        <li>Programming Languages: C/C++</li>
+                        <li>GeeksforGeeks: 3★ (1602)</li>
+                        <li>Codechef: 2★ (1424)</li>
+                        <li>LeetCode: (1477)</li>
+                        <li>Codeforces: Newbie (1034)</li>
+                        <li>CodeStudio: Achiever (1575)</li>
+                    </ul>
                 </div>
 
                 <div>
                     <i class="fa-solid fa-gear"></i>
-                    <h2>Data Structures and Algorithms</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
-                    <a href="#">Learn More</a>
+                    <h2>Machine Learning</h2>
+                    <ul>
+                        <li>Programming Languages: Python</li>
+                        <li>Libraries & Frameworks: Scikit-learn, NumPy, Pandas, Matplotlib</li>
+                        <li>Tools and others: Jupyter Notebook</li>
+                        <li>Contributor on Kaggle</li>
+                    </ul>
                 </div>
-            </div>
+
         </div>
     </div>
     
@@ -112,52 +156,84 @@
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="/kgbot.jpg" alt="KGbot">
+                    <img src="/assets/images/kgbot.jpg" alt="KGbot">
                     <div class="layer">
                         <h3>KGBot: AI Telegram Group Management Chatbot</h3>
                         <h4>Python, Telegram API, Gemini</h4>
-                        <p>python ka project tha</p>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <p>Developed an AI-powered Telegram bot using Gemini to enable intelligent group conversations and real-time interactions. 
+                            Integrated advanced group management features such as user moderation, 
+                            automated warnings, and dynamic poll creation. 
+                            The bot also supports administrative commands including banning, 
+                            muting, unmuting, promoting, and demoting users for 
+                            seamless group control.</p>
+                        <a href="https://github.com/Ayushpremrocks/KGBot">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/weather_app.jpg" alt="">
+                    <img src="/assets/images/weather_app.jpg" alt="weather-app">
                     <div class="layer">
                         <h3>Weatherly: Real-Time Weather Forecast Application</h3>
                         <h4>HTML, CSS, JavaScript, OpenWeatherMapAPI</h4>
-                        <p>python ka project tha</p>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <p>Weatherly is a responsive real-time weather forecasting web application 
+                            built using HTML, CSS, JavaScript, and the OpenWeatherMap API. 
+                            It allows users to search for any location and view current weather 
+                            conditions, hourly updates, and 5-day forecasts. The app features 
+                            interactive visualizations for temperature, wind speed, air quality, 
+                            and sunrise/sunset timings, offering a sleek and informative user experience.</p>
+                        <a href="https://weatherly-weather-web-appilcation.vercel.app/#/current-location"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/mailguard.jpg" alt="">
+                    <img src="/assets/images/mailguard.jpg" alt="Mailguard">
                     <div class="layer">
                         <h3>MailGuard: Spam Detection System</h3>
                         <h4>Python, NLP, Scikit-learn, NumPy, Pandas</h4>
-                        <p>Python, NLP, Scikit-learn, NumPy, Pandas</p>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <p>MailGuard is a Python-based spam detection system that uses 
+                            Natural Language Processing (NLP) and TF-IDF vectorization to 
+                            classify emails. The project implements and compares 
+                            machine learning models including Logistic Regression, 
+                            Random Forest, and XGBoost, with the latter optimized 
+                            using GridSearchCV to achieve 98% accuracy. It also 
+                            features a real-time detection module for dynamic spam 
+                            classification, making it practical for modern email filtering systems.</p>
+                        <a href="https://github.com/Ayushpremrocks/MailGuard"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/virtual_herbal_garden.jpg" alt="">
+                    <img src="/assets/images/virtual_herbal_garden.jpg" alt="">
                     <div class="layer">
                         <h3>Virtual Herbal Garden</h3>
                         <h4>HTML, CSS, JavaScript, GSAP</h4>
-                        <p>python ka project tha</p>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <p>Built an interactive and responsive web platform showcasing medicinal plants, 
+                            enhanced with smooth animations using GSAP. 
+                            The platform features a dynamic plant gallery with detailed information 
+                            on each plant's botanical properties, geographical origins, 
+                            and medicinal uses, providing an engaging and educational user experience.</p>
+                        <a href="https://virtual-herbal-garden-psi.vercel.app"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/taskflow.jpg" alt="">
+                    <img src="/assets/images/taskflow.jpg" alt="taskflow">
                     <div class="layer">
                         <h3>TaskFlow: Task Management System</h3>
                         <h4>Flask, Python, HTML, CSS, JavaScript</h4>
-                        <p>python ka project tha</p>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <p>TaskFlow is a Flask-based task management web application designed to help 
+                            users organize and prioritize tasks efficiently. 
+                            It features a clean, responsive interface for creating, deleting, 
+                            and sorting tasks by priority or deadline. The app supports 
+                            real-time date and time display, light/dark theme toggling, 
+                            and runs seamlessly across devices. Built with Flask, HTML, CSS, JavaScript, 
+                            and a priority queue for task organization, 
+                            TaskFlow offers a smooth and intuitive productivity experience.</p>
+                        <a href="https://github.com/Ayushpremrocks/TaskFlow-Task-Management-System">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/air_quality.jpg" alt="">
+                    <img src="/assets/images/air_quality.jpg" alt="air-quality">
                     <div class="layer">
                         <h3>Air Quality Monitoring Dashboard</h3>
                         <h4>Flask, Python, HTML, CSS, JavaScript</h4>
@@ -173,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <a href="https://github.com/Ayushpremrocks" class="btn">See More</a>
         </div>
     </div>
 
@@ -201,7 +277,7 @@
                         <a href="https://x.com/ayushpremrocks"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://codolio.com/profile/ayushpremrocks"><i class="fa-solid fa-code"></i></a>
                     </div>
-                    <a href="/Ayush Prem Resume 22nd June 2025.pdf"  download class="btn contactbtn">Download CV</a>
+                    <a href="/assets/docs/Ayush Prem Resume 22nd June 2025.pdf"  download class="btn contactbtn">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form id="contact-form">
@@ -223,65 +299,6 @@
             by <i class="fa-brands fa-github github-icon"></i>
             <a href="https://github.com/Ayushpremrocks"></a> Ayush Prem</p>
     </div>
-<script>
-    // Initialize EmailJS
-    (function () {
-        emailjs.init("3An00iSfcT0B9x9Lp"); // ← Replace with your actual public key
-    })();
-
-    // Handle Contact Form Submission
-    document.addEventListener("DOMContentLoaded", function () {
-        var form = document.getElementById("contact-form");
-
-        if (form) {
-            form.addEventListener("submit", function (e) {
-                e.preventDefault();
-
-                // 🔽 Set current date & time in hidden input field named "time"
-                const now = new Date();
-                const timeField = document.getElementById("form-time");
-
-                // Create field if not found (optional fallback)
-                if (!timeField) {
-                    const hiddenTimeInput = document.createElement("input");
-                    hiddenTimeInput.type = "hidden";
-                    hiddenTimeInput.name = "time";
-                    hiddenTimeInput.id = "form-time";
-                    hiddenTimeInput.value = now.toLocaleString();
-                    form.appendChild(hiddenTimeInput);
-                } else {
-                    timeField.value = now.toLocaleString(); // e.g., "6/27/2025, 2:45:12 AM"
-                }
-
-                // 🔼 Now send the form
-                emailjs.sendForm("service_m1fuinp", "template_z2vqysx", this)
-                    .then(function (response) {
-                        alert("Message sent successfully!");
-                        console.log("SUCCESS", response.status, response.text);
-                    }, function (error) {
-                        alert("Failed to send message. Please try again.");
-                        console.log("FAILED", error);
-                    });
-
-                this.reset(); // Clear the form after sending
-            });
-        }
-    });
-
-
-    // tab switching function
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
