@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/e3baa28edf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Ayush Prem</h1>
+                <ul>
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About me</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Sophomore, Chandigarh University</p>
+                <h1>Hi, I am <span>Ayush Prem</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- about image -->
+                    <img src="/cool boi.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle" >About Me</h1>
+                    <!-- about me summary -->
+                    <p>I am Ayush Prem, a passionate driven Sophomore at Chandigarh University. I actively solve 
+                    problems on Data Structures and Algorithms and Competitive Programming , regularly participating in contests to strengthen my
+                    problem solving skills. I build projects in Web Development and Machine Learning, combining practical application
+                    with continuous learning.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('xyz')" >xyz</p>
+                    </div>
+                    <!-- skills content -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, Python, Java, JavaScript, HTML, CSS</li>
+                            <li><span>Libraries & Frameworks</span><br>React, Scikit-learn, NumPy, Pandas, Tailwind, Flask</li>
+                            <li><span>Databases</span><br>SQL, MongoDB</li>
+                            <li><span>Tools and others</span><br>AWS, Docker, Jupyter, Git/Github</li>
+                        </ul>
+                    </div>
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology, Computer Science and Engineering</span><br>Chandigarh Univerisity, Punjab, India</li>
+                            <li><span>Intermediate, Science and Mathematics</span><br>Dr. Ulhas Patil english medium school</li>
+                            <li><span>Matriculation</span><br>Kendriya Vidyalaya</li>
+                        </ul>
+                    </div>
+                    <!-- xyz  -->
+                    <div class="tab-contents" id="xyz">
+                        <ul>
+                            <li><span>developer</span><br>cp coder</li>
+                            <li><span>developer</span><br>cp coder</li>
+                            <li><span>developer</span><br>cp coder</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Data Structures and Algorithms</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quidem repellat, necessitatibus eum nihil voluptates distinctio numquam, accusamus at hic unde possimus suscipit excepturi veniam quos maxime, aliquam esse exercitationem?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- portfolio  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/photo_2024-05-31_20-52-50.jpg" alt="">
+                    <div class="layer">
+                        <h3>KGBot</h3>
+                        <p>python ka project tha</p>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/cool boi.jpg" alt="">
+                    <div class="layer">
+                        <h3>KGBot</h3>
+                        <p>python ka project tha</p>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/photo_2024-05-31_20-52-50.jpg" alt="">
+                    <div class="layer">
+                        <h3>KGBot</h3>
+                        <p>python ka project tha</p>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p>
+                        <a class="email-button" href="mailto:ayushpremrocks@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            Send me an email
+                        </a>
+                    </p>
+                    <p>
+                        <a class="linkedin-button" href="https://www.linkedin.com/in/ayushpremrocks/">
+                            <i class="fa-brands fa-linkedin"></i>
+                            Connect with me on LinkedIn
+                        </a>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Ayushpremrocks"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/ayushpremrocks/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/ayushpremrocks"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://codolio.com/profile/ayushpremrocks"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <a href="/Ayush Prem Resume 22nd June 2025.pdf"  download class="btn contactbtn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="hidden" name="time" id="form-time">
+                        <button type="submit" class="btn contactbtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- copyright -->
+    <div id="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright copyright-icon"></i> 
+            Made with <i class="fa-solid fa-heart heart-icon"></i> 
+            by <i class="fa-brands fa-github github-icon"></i>
+            <a href="https://github.com/Ayushpremrocks"></a> Ayush Prem</p>
+    </div>
+<script>
+    // Initialize EmailJS
+    (function () {
+        emailjs.init("3An00iSfcT0B9x9Lp"); // ← Replace with your actual public key
+    })();
+
+    // Handle Contact Form Submission
+    document.addEventListener("DOMContentLoaded", function () {
+        var form = document.getElementById("contact-form");
+
+        if (form) {
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                // 🔽 Set current date & time in hidden input field named "time"
+                const now = new Date();
+                const timeField = document.getElementById("form-time");
+
+                // Create field if not found (optional fallback)
+                if (!timeField) {
+                    const hiddenTimeInput = document.createElement("input");
+                    hiddenTimeInput.type = "hidden";
+                    hiddenTimeInput.name = "time";
+                    hiddenTimeInput.id = "form-time";
+                    hiddenTimeInput.value = now.toLocaleString();
+                    form.appendChild(hiddenTimeInput);
+                } else {
+                    timeField.value = now.toLocaleString(); // e.g., "6/27/2025, 2:45:12 AM"
+                }
+
+                // 🔼 Now send the form
+                emailjs.sendForm("service_m1fuinp", "template_z2vqysx", this)
+                    .then(function (response) {
+                        alert("Message sent successfully!");
+                        console.log("SUCCESS", response.status, response.text);
+                    }, function (error) {
+                        alert("Failed to send message. Please try again.");
+                        console.log("FAILED", error);
+                    });
+
+                this.reset(); // Clear the form after sending
+            });
+        }
+    });
+
+
+    // tab switching function
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
